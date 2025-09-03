@@ -1,0 +1,74 @@
+/* Reset */
+/* ställa in bildens maximala bredd */
+img {
+  max-width: 100%;
+}
+
+/* Ta bort marginalerna på figuren som bilden ligger i*/
+figure {
+  margin: 0;
+}
+
+/* bakgrundsfärg på sidan */
+body {
+  background-color: #d3dede;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* korten */
+.card {
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+.card--shadow {
+  box-shadow: 50px 5px 15px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* styla listan med länkar */
+.categories {
+  padding: 15px 50px;
+}
+
+.card__content {
+  padding: 0 30px 30px 30px;
+}
+
+.categories__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.categories__item {
+  display: inline-block;
+  background-color: black;
+  margin-right: 8px;
+}
+
+.categories__link {
+  color: white;
+  display: inline-block;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+/* Göra olika bakgrundsfärg på länkarna */
+.categories__item--blue {
+  background-color: #00e0ff;
+}
+
+.categories__item--purple {
+  background-color: #ad00fa;
+}
+
+.categories__item--red {
+  background-color: red;
+}
+
+/*Fixa till Läs-mer-länken längst ner i korten*/
+.card__link {
+  color: #ad00ff;
+  font-weight: 700;
+  text-decoration: none;
+}
